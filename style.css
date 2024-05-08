@@ -1,0 +1,50 @@
+/* Estilos generales */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, main, footer {
+    padding: 20px;
+}
+
+/* Estilos del encabezado */
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+/* Estilos del contenido principal */
+
+section {
+    text-align: center;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos del pie de página */
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
